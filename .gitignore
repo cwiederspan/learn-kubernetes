@@ -1,0 +1,15 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# secret.tfvars files
+**/*secret*.tfvars
+
+# Ignore certs
+**/*.pfx
+
+# Ignore PPTX temp files
+~$WalkingDeck.pptx
