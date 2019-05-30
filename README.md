@@ -1,2 +1,2 @@
-# Zero to Kubernetes on Azure
+# Learn Kubernetes on Azure (AKS)
 

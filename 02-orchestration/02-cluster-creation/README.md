@@ -1,4 +1,4 @@
-# Use the Azure CLI to Create a Simple AKS Cluster
+# Use the Azure CLI to Create an AKS Cluster
 
 ```bash
 RG_NAME=my-kubernetes-20190529
