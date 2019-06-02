@@ -1,4 +1,6 @@
-# Setup Helm on the Cluster
+# Helm Package Manager
+
+## Install/Init Helm on the Cluster
 
 Helm is the defacto standard for package management and deployment on Kubernetes.
 
@@ -12,4 +14,12 @@ kubectl create -f helm-rbac.yml
 # Initialize Helm on the cluster
 helm init --service-account tiller
 
+```
+
+## Create Helm Chart
+
+```bash
+helm create my-chart
+
+helm template ./my-chart
 ```
