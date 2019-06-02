@@ -1,4 +1,6 @@
-# Install an Ingress Controller
+# Kubernetes Ingress
+
+## Install an Ingress Controller
 
 ```bash
 
@@ -13,9 +15,17 @@ helm install stable/nginx-ingress \
     --set defaultBackend.nodeSelector."beta\.kubernetes\.io/os"=linux
 ```
 
-# Install an App with Ingress
+## Install an App with Ingress
 
 ```bash
 
+# Use kubectl to create the namespace
+kubectl apply -f ingress.yml -n learn-aks
+
+# List all of the ingresses
+kubectl get ingress --all-namespaces
+
+# Describe the ingress we just created
+kubectl describe ingress basic-ingress -n learn-aks
 
 ```

@@ -8,6 +8,16 @@
 
 * [Kubernetes in 50 Days](https://azure.microsoft.com/mediahandler/files/resourcefiles/kubernetes-learning-path/Kubernetes%20Learning%20Path%20version%201.0.pdf)
 
+## Install Kubectl
+
+* [Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-windows)
+* [Mac](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos)
+* [Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
+
+```bash
+kubectl version
+```
+
 ## Glossary
 
 * **etcd** - Consistent and highly-available key value store used as Kubernetes’ backing store for all cluster data.
