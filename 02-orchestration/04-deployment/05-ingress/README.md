@@ -20,7 +20,7 @@ helm install stable/nginx-ingress \
 ```bash
 
 # Use kubectl to create the namespace
-kubectl apply -f ingress.yml -n learn-aks
+kubectl apply -f ingress.yaml -n learn-aks
 
 # List all of the ingresses
 kubectl get ingress --all-namespaces

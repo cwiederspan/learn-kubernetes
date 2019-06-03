@@ -3,17 +3,17 @@
 ```bash
 
 # Use kubectl to create the namespace
-kubectl create -f namespace.yml
+kubectl create -f namespace.yaml
 
 kubectl get namespaces
 
 # Deploy the application itself
-kubectl apply -f deployment.yml -n learn-aks 
+kubectl apply -f deployment.yaml -n learn-aks 
 
 kubectl get pods -n learn-aks
 
 # Deploy the service for accessing the app
-kubectl apply -f service.yml -n learn-aks
+kubectl apply -f service.yaml -n learn-aks
 
 kubectl get service -n learn-aks
 
