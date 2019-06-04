@@ -3,7 +3,7 @@
 ```bash
 
 # Use kubectl to create the namespace
-kubectl create -f namespace.yaml
+kubectl apply -f namespace.yaml
 
 kubectl get namespaces
 
