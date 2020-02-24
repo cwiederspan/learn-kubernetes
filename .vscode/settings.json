@@ -5,10 +5,5 @@
         "net",
         "windows"
     ],
-    "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#31bc72",
-        "titleBar.inactiveBackground": "#31bc7299",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveForeground": "#15202b99"
-    }
+    "workbench.colorCustomizations": {}
 }
