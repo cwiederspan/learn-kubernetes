@@ -3,10 +3,10 @@
 ```bash
 
 # Get your credentials from AKS
-az aks get-credentials -g YOUR_RG_NAME -n YOUR_AKS_NAME
+az aks get-credentials -g $RG_NAME -n $RG_NAME
 
 # Now you can use kubectl
-kubectl get nodes
+kubectl describe nodes | grep -e "Name:" -e "failure-domain.beta.kubernetes.io/zone"
 
 # Show the namespaces
 kubectl get namespaces

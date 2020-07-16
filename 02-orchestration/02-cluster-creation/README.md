@@ -22,6 +22,8 @@ az aks create \
     --location $LOCATION \
     --enable-addons monitoring \
     --kubernetes-version $VERSION \
-    --node-count 2
+    --node-count 2 \
+    --zones 1 2 3 \
+    --generate-ssh-keys
 
 ```
